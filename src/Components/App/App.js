@@ -11,7 +11,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      playlistName: "Jammming&trade; Untitled Playlist",
+      playlistName: "Untitled Playlist",
       playlistTracks: [],
       searchResults: []
     };
