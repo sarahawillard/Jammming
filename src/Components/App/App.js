@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 //import logo from './logo.svg';
 import './App.css';
 
@@ -7,7 +7,7 @@ import SearchBar from '../SearchBar/SearchBar';
 import Playlist from '../Playlist/Playlist';
 import Spotify from '../../util/Spotify';
 
-export class App extends React.Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {

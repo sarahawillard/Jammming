@@ -36,6 +36,7 @@ const Spotify = {
     }, networkError => {
       console.log(networkError.message);
     }).then(jsonResponse => {
+      console.log(jsonResponse.tracks)
       if (!jsonResponse.tracks) {
         return [];
       }
